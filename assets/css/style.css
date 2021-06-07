@@ -92,11 +92,6 @@ h2 {
 	font-size: 35px;
 	color: #2CDBF8;
 	font-weight: 700;
-	transform: rotate(-84deg);
-	transform-origin: left;
-	position: absolute;
-	top: 200px;
-	left: 70px;
 }
 
 h2:before {
@@ -366,6 +361,14 @@ header .header-menu .logo {
 	color: #fff;
 }
 
+#bio-section .bio-bg .bio-box h2 {
+	transform: rotate(-84deg);
+	transform-origin: left;
+	position: absolute;
+	top: 200px;
+	left: 70px;
+}
+
 #bio-section .page-tag {
 	font-size: 80px;
 	color: rgba(255,255,255,0.23);
@@ -435,10 +438,10 @@ header .header-menu .logo {
 
 /* Footer Area */
 footer {
-	 font-family: Quicksand;
-	 font-size: 12px;
-	 text-align: center;
-	 position: absolute;
+	font-family: Quicksand;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -449,4 +452,60 @@ footer {
 
 footer p {
 	margin-top: 10px;
+}
+
+/* Project page */
+
+#projects-section {
+	background: #070A41 url(../img/projects/projects-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 197px 0 150px;
+	color: #fff;
+	position: relative;
+}
+
+#projects-section h2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 16%;
+	top: 42%;
+}
+
+#projects-section .second-projects-row {
+	margin-top: 50px;
+}
+
+#projects-section .theird-projects-row {
+	margin-top: 50px;
+}
+
+#projects-section .borderd {
+	margin-top: 30px;
+}
+
+#projects-section .projects-description h3 {
+	margin-top: 20px;
+	color: #FFEF72;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#projects-section .projects-description p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#projects-section .proejcts-box {
+	max-width: 710px;
+    margin: 0 auto;
+}
+
+#projects-section .proejcts-box .project-logo-item {
+    width: 33.3333% !important;
+    /* border: 2px solid; */
+    padding: 15px;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
 }
