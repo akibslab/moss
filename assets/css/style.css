@@ -468,32 +468,25 @@ footer p {
 #projects-section h2 {
 	transform: rotate(-90deg);
 	position: absolute;
-	left: 16%;
-	top: 42%;
+	left: 8%;
+    top: 40%;
 }
 
-#projects-section .second-projects-row {
-	margin-top: 50px;
+#projects-section .products-item-text {
+	border-top: 4px solid #2CDBF8;
 }
 
-#projects-section .theird-projects-row {
-	margin-top: 50px;
-}
-
-#projects-section .borderd {
+#projects-section .products-item-text h3 {
 	margin-top: 30px;
-}
-
-#projects-section .projects-description h3 {
-	margin-top: 20px;
 	color: #FFEF72;
 	font-size: 17px;
 	text-transform: uppercase;
 }
 
-#projects-section .projects-description p {
+#projects-section .products-item-text p {
 	font-size: 16px;
 	font-weight: normal;
+	margin-top: 30px;
 }
 
 #projects-section .proejcts-box {
@@ -503,9 +496,23 @@ footer p {
 
 #projects-section .proejcts-box .project-logo-item {
     width: 33.3333% !important;
-    /* border: 2px solid; */
     padding: 15px;
     height: 160px;
     text-align: center;
     line-height: 160px;
+}
+
+#projects-section .proejcts-box .product-image {
+    margin: 0 0 50px 0;
+}
+
+/* Project page */
+
+#testimonial-section {
+	background: #070A41 url(../img/testimonial/testimonial-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 197px 0 150px;
+	color: #fff;
+	position: relative;
 }
