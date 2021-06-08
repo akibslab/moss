@@ -507,7 +507,7 @@ footer p {
     margin: 0 0 50px 0;
 }
 
-.active {
+.single.active {
 	border: 3px solid #2CDBF8;
 }
 
@@ -531,11 +531,16 @@ footer p {
 }
 
 #testimonial-section .testimonial-heading img {
-	margin: -107px 0 0 0px;
+	margin: -102px 0 0 0px;
 }
 
 #testimonial-section .testimonials .carousel-inner {
 	width: 699px;
+	margin: 0 auto;
+}
+
+#testimonial-section #carouselExampleControls {
+	width: 840px;
 	margin: 0 auto;
 }
 
@@ -552,4 +557,15 @@ footer p {
 
 #testimonial-section .testimonials img {
 	margin-top: -71px;
+}
+
+/* Writing Section Start */
+
+#writing-section {
+	background: #070A41 url(../img/testimonial/testimonial-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 197px 0 197px;
+	color: #fff;
+	position: relative;
 }
