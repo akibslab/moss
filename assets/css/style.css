@@ -637,3 +637,47 @@ footer p {
 	line-height: 30px;
 	margin-top: 20px;
 }
+
+/* Speaking Section Start */
+
+#speaking-section {
+	background: #070A41 url(../img/speaking/speaking-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 225px 0 280px 0;
+	color: #fff;
+	position: relative;
+}
+
+#speaking-section .description {
+	display: flex;
+}
+
+#speaking-section h1 {
+	font-size: 100px;
+	color: rgba(255,255,255,0.23);
+	font-family: Pier Sans;
+}
+
+#speaking-section h3 {
+	font-size: 30px;
+	font-family: Quicksand;
+	color: #2CDBF8;
+	margin-bottom: 30px;
+}
+
+#speaking-section .left-text {
+	padding-right: 100px;
+}
+
+#speaking-section .description .left-text::after {
+	content: "";
+	width: 2px;
+	height: 315px;
+	background: #2CDBF8;
+	display: block;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	margin-right: 20px;
+}
