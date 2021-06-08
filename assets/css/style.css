@@ -382,9 +382,10 @@ header .header-menu .logo {
 	background: #151E3F;
 	transform: skewX(-0.015turn);
 	position: relative;
-	max-width: 750px;
+	max-width: 880px;
 	margin: 0 auto;
 	z-index: 10;
+	transform-origin: top;
 }
 
 #bio-section .bio-bg:after {
