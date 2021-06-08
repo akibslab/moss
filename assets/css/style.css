@@ -94,7 +94,7 @@ h2 {
 	font-weight: 700;
 }
 
-h2:before {
+/* h2:before {
 	content: "";
 	width: 50px;
 	height: 2px;
@@ -104,7 +104,7 @@ h2:before {
 	top: 50%;
 	right: 100%;
 	margin-right: 20px;
-}
+} */
 
 h3 {
     font-family: Quicksand;
@@ -369,6 +369,18 @@ header .header-menu .logo {
 	left: 70px;
 }
 
+#bio-section h2:before {
+	content: "";
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-right: 20px;
+}
+
 #bio-section .page-tag {
 	font-size: 80px;
 	color: rgba(255,255,255,0.23);
@@ -464,6 +476,18 @@ footer p {
 	padding: 197px 0 150px;
 	color: #fff;
 	position: relative;
+}
+
+#projects-section h2:before {
+	content: "";
+	width: 50px;
+	height: 2px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-right: 20px;
 }
 
 #projects-section h2 {
@@ -563,10 +587,53 @@ footer p {
 /* Writing Section Start */
 
 #writing-section {
-	background: #070A41 url(../img/testimonial/testimonial-bg.jpg);
+	background: #070A41 url(../img/writign/writing-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 197px 0 197px;
+	padding: 225px 0 280px 0;
 	color: #fff;
 	position: relative;
+}
+
+#writing-section h1 {
+	position: absolute;
+    font-size: 60px;
+    transform: rotate(-90deg);
+    color: rgba(255,255,255,0.23);
+    white-space: nowrap;
+    right: -260%;
+    top: 60%;
+}
+
+#writing-section .first-col h5 {
+	margin-top: 50px;
+	font-size: 16px;
+	font-family: Quicksand;
+	color: #2CDBF8;
+}
+
+#writing-section .first-col .form-control {
+	border-radius: 1px;
+}
+
+#writing-section .first-col p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+#writing-section .last-col h2 {
+	font-size: 26px;
+	color: #2CDBF8;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#writing-section .last-col h4 p {
+	font-size: 20px;
+}
+
+#writing-section .last-col .description p {
+	line-height: 30px;
+	margin-top: 20px;
 }
