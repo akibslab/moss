@@ -36,5 +36,16 @@
         
     });
 
+	jQuery('.target').hide();
+	jQuery('#div1').show();
+
+	jQuery('.single').click(function(){
+		$(".single").removeClass("active");
+		$($(this)).addClass("active");
+		jQuery('.target').hide();
+		jQuery('#div'+$(this).attr('target')).show();
+
+	});
+
 
 }(jQuery));	

@@ -477,7 +477,7 @@ footer p {
 }
 
 #projects-section .products-item-text h3 {
-	margin-top: 30px;
+	margin-top: 40px;
 	color: #FFEF72;
 	font-size: 17px;
 	text-transform: uppercase;
@@ -486,7 +486,7 @@ footer p {
 #projects-section .products-item-text p {
 	font-size: 16px;
 	font-weight: normal;
-	margin-top: 30px;
+	margin-top: 26px;
 }
 
 #projects-section .proejcts-box {
@@ -499,11 +499,16 @@ footer p {
     padding: 15px;
     height: 160px;
     text-align: center;
-    line-height: 160px;
+    line-height: 120px;
+	cursor: pointer;
 }
 
 #projects-section .proejcts-box .product-image {
     margin: 0 0 50px 0;
+}
+
+.active {
+	border: 3px solid #2CDBF8;
 }
 
 /* Project page */
@@ -512,7 +517,39 @@ footer p {
 	background: #070A41 url(../img/testimonial/testimonial-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 197px 0 150px;
+	padding: 197px 0 197px;
 	color: #fff;
 	position: relative;
+}
+
+#testimonial-section .testimonial-heading h1 {
+	color: rgba(255,255,255,0.23);
+	font-size: 100px;
+	display: inline-block;	
+	margin-top: 10%;
+	padding: 0 30px;
+}
+
+#testimonial-section .testimonial-heading img {
+	margin: -107px 0 0 0px;
+}
+
+#testimonial-section .testimonials .carousel-inner {
+	width: 699px;
+	margin: 0 auto;
+}
+
+#testimonial-section .testimonials .carousel-item h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #2CDBF8;
+}
+
+#testimonial-section .testimonials .carousel-item p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+#testimonial-section .testimonials img {
+	margin-top: -71px;
 }
