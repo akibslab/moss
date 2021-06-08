@@ -3,6 +3,10 @@
     header .header-menu .desktop-menu > li > a {
     	padding: 0 30px;
     }
+
+	#projects-section h2 {
+		left: 5%;
+	}
 }
 
 
@@ -28,6 +32,11 @@
 	    padding: 0 25px;
 	    width: 250px;
 	}
+
+	#projects-section h2 {
+		left: -4%;
+	}
+
 }
 
 
@@ -204,6 +213,21 @@
 	#hero-section h1, #hero-section .button-primary, #social-subscribe-section .social-links, #social-subscribe-section .input-group {
 		margin-left: initial;
 	}
+
+	#projects-section h2 {
+		position: inherit;
+		transform: rotate(0deg);
+		margin-left: 90px;
+		font-size: 16px;
+	}
+
+	#projects-section .proejcts-box .project-logo-item {
+		padding: 10px;
+		height: 105px;
+		text-align: center;
+		line-height: 35px;
+	}
+
 }
 
 
@@ -211,9 +235,19 @@
 
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) { 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 	h1 {
 		font-size: 40px;
+	}
+
+	#projects-section .proejcts-box .project-logo-item {
+		height: 136px;
+		text-align: center;
+		line-height: 110px;
+	}
+
+	#projects-section h2 {
+		font-size: 20px;
 	}
 
 }
