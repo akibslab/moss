@@ -772,7 +772,8 @@ footer p {
 	margin: 0 auto;
 }
 
-#contact-section .form-bg form input {
+#contact-section .form-bg form input,
+#contact-section .form-bg form textarea {
 	margin-bottom: 35px;
 }
 
@@ -785,7 +786,7 @@ footer p {
     transform-origin: left;
     position: absolute;
     left: 165px;
-    top: 305px;
+    top: 290px;
 	text-transform: uppercase;
 }
 
