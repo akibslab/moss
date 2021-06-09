@@ -94,18 +94,6 @@ h2 {
 	font-weight: 700;
 }
 
-/* h2:before {
-	content: "";
-	width: 50px;
-	height: 2px;
-	background: #fff;
-	display: block;
-	position: absolute;
-	top: 50%;
-	right: 100%;
-	margin-right: 20px;
-} */
-
 h3 {
     font-family: Quicksand;
 	font-size: 20px;
@@ -358,6 +346,7 @@ header .header-menu .logo {
 	background-size: cover;
 	background-position: center;
 	padding: 197px 0 150px;
+	min-height: 100vh;
 	color: #fff;
 }
 
@@ -476,6 +465,7 @@ footer p {
 	padding: 197px 0 150px;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #projects-section h2:before {
@@ -545,6 +535,7 @@ footer p {
 	padding: 197px 0 197px;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #testimonial-section .testimonial-heading h1 {
@@ -593,6 +584,7 @@ footer p {
 	padding: 225px 0 280px 0;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #writing-section h1 {
@@ -612,6 +604,18 @@ footer p {
 	color: #2CDBF8;
 }
 
+#writing-section .first-col select option {
+	font-size: 14px;
+	color: #1D2240;
+	font-family: Pier Sans;
+}
+
+#writing-section .first-col select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
 #writing-section .first-col .form-control {
 	border-radius: 1px;
 }
@@ -620,6 +624,7 @@ footer p {
 	font-size: 16px;
 	color: #fff;
 	margin-bottom: 0px;
+	font-family: Quicksand;
 }
 
 #writing-section .last-col h2 {
@@ -627,15 +632,24 @@ footer p {
 	color: #2CDBF8;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	font-family: Quicksand;
 }
 
-#writing-section .last-col h4 p {
+#writing-section .last-col {
+	font-family: Quicksand;
+} 
+
+#writing-section .last-col h4 {
 	font-size: 20px;
-}
+	font-family: Quicksand;
+} 
+
 
 #writing-section .last-col .description p {
 	line-height: 30px;
 	margin-top: 20px;
+	font-size: 16px;
+	font-family: Quicksand;
 }
 
 /* Speaking Section Start */
@@ -647,6 +661,7 @@ footer p {
 	padding: 225px 0 280px 0;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #speaking-section .description {
@@ -691,6 +706,7 @@ footer p {
 	padding: 225px 0 180px 0;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #newsletter-section .form-bg {
@@ -701,6 +717,7 @@ footer p {
 #newsletter-section .form-bg p {
 	font-size: 16px;
 	padding-bottom: 20px;
+	font-family: Quicksand;
 }
 
 #newsletter-section .form-bg strong {
@@ -740,6 +757,31 @@ footer p {
 	margin-right: 20px;
 }
 
+#newsletter-section .form-primary .form-control {
+	border-radius: 1px;
+}
+
+#newsletter-section .form-primary .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #1D2240;
+	font-size: 14px;
+	font-family: Quicksand;
+}
+#newsletter-section .form-primary .form-control::-moz-placeholder { /* Firefox 19+ */
+	color: #1D2240;
+	font-size: 14px;
+	font-family: Quicksand;
+}
+#newsletter-section .form-primary .form-control:-ms-input-placeholder { /* IE 10+ */
+	color: #1D2240;
+	font-size: 14px;
+	font-family: Quicksand;
+}
+#newsletter-section .form-primary .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #1D2240;
+	font-size: 14px;
+	font-family: Quicksand;
+}
+
 /* Contact Section Start */
 
 #contact-section {
@@ -749,6 +791,7 @@ footer p {
 	padding: 225px 0 180px 0;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #contact-section .form-bg {
@@ -761,6 +804,7 @@ footer p {
 	padding-bottom: 30px;
 	width: 381px;
 	margin: 0 auto;
+	font-family: Quicksand;
 }
 
 #contact-section .form-bg strong {
@@ -772,7 +816,10 @@ footer p {
 	margin: 0 auto;
 }
 
-#contact-section .form-bg form input,
+#contact-section .form-bg form input {
+	margin-bottom: 21px;
+}
+
 #contact-section .form-bg form textarea {
 	margin-bottom: 35px;
 }
@@ -802,6 +849,31 @@ footer p {
 	margin-right: 20px;
 }
 
+#contact-section .form-primary .form-control {
+	border-radius: 1px;
+}
+
+#contact-section .form-primary .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #1D2240;
+	font-size: 14px;
+	font-weight: 300;
+  }
+#contact-section .form-primary .form-control::-moz-placeholder { /* Firefox 19+ */
+	color: #1D2240;
+	font-size: 14px;
+	font-weight: 300;
+}
+#contact-section .form-primary .form-control:-ms-input-placeholder { /* IE 10+ */
+	color: #1D2240;
+	font-size: 14px;
+	font-weight: 300;
+}
+#contact-section .form-primary .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #1D2240;
+	font-size: 14px;
+	font-weight: 300;
+}
+
 /* Services Section Start */
 
 #services-section {
@@ -811,6 +883,7 @@ footer p {
 	padding: 225px 0 180px 0;
 	color: #fff;
 	position: relative;
+	min-height: 100vh;
 }
 
 #services-section .tabs {
