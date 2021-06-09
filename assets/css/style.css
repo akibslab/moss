@@ -611,9 +611,9 @@ footer p {
 }
 
 #writing-section .first-col select {
-    -moz-appearance:none; /* Firefox */
-    -webkit-appearance:none; /* Safari and Chrome */
-    appearance:none;
+    background: url(../img/writign/options-icon.png) no-repeat right #fff;
+    -webkit-appearance: none;
+    background-position-x: 226px;
 }
 
 #writing-section .first-col .form-control {
