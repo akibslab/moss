@@ -47,5 +47,15 @@
 
 	});
 
+	jQuery('.select').hide();
+	jQuery('#div1').show();
+	
+	jQuery('.single-tabs').click(function(){
+		$(".single-tabs").removeClass("active");
+		$($(this)).addClass("active");
+		jQuery('.select').hide();
+		jQuery('#div'+$(this).attr('target')).show();
+	});
+
 
 }(jQuery));	

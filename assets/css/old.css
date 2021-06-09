@@ -834,13 +834,10 @@ footer p {
 #services-section .tabs ul li a span {
 	font-size: 80px;
 	color: #fff;
-}
-
-#services-section .single-tabs span.number {
 	display: none;
 }
 
-#services-section .single-tabs.active span.number {
+#services-section .single-tabs.active span {
 	display: inline-block;
 }
 
@@ -912,6 +909,4 @@ footer p {
 #services-section .tabs ul li a span.text {
 	font-size: 16px;
 	color: #2CDBF8;
-	margin-top: -100px;
-	display: inline-block;
 }
