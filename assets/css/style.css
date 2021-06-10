@@ -480,11 +480,12 @@ footer p {
 	margin-right: 20px;
 }
 
-#projects-section h2 {
+#projects-section .product-image h2 {
 	transform: rotate(-90deg);
 	position: absolute;
-	left: 8%;
-    top: 40%;
+	left: -195px;
+	top: 215px;
+	font-family: Pier Sans;
 }
 
 #projects-section .products-item-text {
@@ -494,14 +495,16 @@ footer p {
 #projects-section .products-item-text h3 {
 	margin-top: 40px;
 	color: #FFEF72;
-	font-size: 17px;
+	font-size: 20px;
 	text-transform: uppercase;
+	font-family: Quicksand;
 }
 
 #projects-section .products-item-text p {
 	font-size: 16px;
 	font-weight: normal;
 	margin-top: 26px;
+	font-family: Quicksand;
 }
 
 #projects-section .proejcts-box {
@@ -544,6 +547,7 @@ footer p {
 	display: inline-block;	
 	margin-top: 10%;
 	padding: 0 30px;
+	font-family: Pier Sans;
 }
 
 #testimonial-section .testimonial-heading img {
@@ -564,11 +568,13 @@ footer p {
 	font-size: 30px;
 	font-weight: bold;
 	color: #2CDBF8;
+	font-family: Quicksand;
 }
 
 #testimonial-section .testimonials .carousel-item p {
 	font-size: 16px;
 	margin-top: 20px;
+	font-family: Quicksand;
 }
 
 #testimonial-section .testimonials img {
@@ -589,12 +595,13 @@ footer p {
 
 #writing-section h1 {
 	position: absolute;
-    font-size: 60px;
+    font-size: 70px;
     transform: rotate(-90deg);
     color: rgba(255,255,255,0.23);
     white-space: nowrap;
-    right: -260%;
+    right: -325%;
     top: 65%;
+	font-family: Pier Sans;
 }
 
 #writing-section .first-col h5 {
@@ -658,7 +665,7 @@ footer p {
 	background: #070A41 url(../img/speaking/speaking-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 225px 0 280px 0;
+	padding: 200px 0 115px 0;
 	color: #fff;
 	position: relative;
 	min-height: 100vh;
@@ -678,11 +685,30 @@ footer p {
 	font-size: 30px;
 	font-family: Quicksand;
 	color: #2CDBF8;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	margin-top: 20px;
 }
 
 #speaking-section .left-text {
 	padding-right: 100px;
+}
+
+#speaking-section .left-text p {
+	font-size: 18px;
+	font-family: Pier Sans;
+}
+
+#speaking-section .topics h3 {
+	font-size: 30px;
+	font-family: Quicksand;
+	color: #FFEF72;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+#speaking-section .topics p {
+	font-size: 16px;
+	font-family: Quicksand;
 }
 
 #speaking-section .description .left-text::after {
@@ -703,7 +729,7 @@ footer p {
 	background: #070A41 url(../img/newsletter/newsletter-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 225px 0 180px 0;
+	padding: 225px 0 165px 0;
 	color: #fff;
 	position: relative;
 	min-height: 100vh;
@@ -877,7 +903,7 @@ footer p {
 /* Services Section Start */
 
 #services-section {
-	background: #070A41 url(../img/contact/contact-bg.jpg);
+	background: #070A41 url(../img/services/services-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 225px 0 180px 0;
@@ -886,8 +912,24 @@ footer p {
 	min-height: 100vh;
 }
 
+#services-section .services {
+	transform: rotate(-90deg);
+	font-size: 57px;
+	font-family: Pier Sans;
+	font-weight: bold;
+	transform-origin: left;
+	position: absolute;
+	left: -125px;
+	top: 377px;
+	z-index: 0;
+	color: rgba(255,255,255,0.23);
+}
+
 #services-section .tabs {
-	width: 435px;
+	background-image: url(../img/services/tabs-bg.png);
+	background-size: cover;
+	background-position: center;
+	width: 460px;
 	position: absolute;
 	display: inline-block;
 	left: -75%;
@@ -900,8 +942,9 @@ footer p {
 }
 
 #services-section .tabs ul li {
-	margin: 40px 20px;
+	margin: 55px 0px;
 	cursor: pointer;
+	z-index: 9999;
 }
 
 #services-section .tabs ul li a span {
@@ -911,6 +954,7 @@ footer p {
 
 #services-section .single-tabs span.number {
 	display: none;
+	font-family: Pier Sans;
 }
 
 #services-section .single-tabs.active span.number {
@@ -921,6 +965,7 @@ footer p {
 	display: inline-block;
 	color: #2CDBF8;
 	text-decoration: none;
+	/* font-f */
 }
 
 #services-section .tabs-content {
@@ -938,6 +983,7 @@ footer p {
 #services-section .tabs-content h2 {
 	padding-left: 20px;
 	padding-bottom: 5px;
+	font-family: Quicksand;
 }
 
 #services-section .tabs-content h2::before {
@@ -953,6 +999,7 @@ footer p {
 
 #services-section .tabs-content p {
 	padding-bottom: 55px;
+	font-family: Quicksand;
 }
 
 #services-section .tabs-content ul li {
@@ -960,6 +1007,7 @@ footer p {
 	text-decoration: none;
 	font-size: 12px;
 	padding: 10px 9px;
+	font-family: Quicksand;
 }
 
 #services-section .tabs-content ul li:first-child {
@@ -967,7 +1015,14 @@ footer p {
 }
 
 #services-section .simple-project {
+	/* background-image: url(../img/projects/1.png); */
+	background-repeat: no-repeat;
+	background-position: center;
 	margin-top: 50px;
+}
+
+#services-section .simple-project p {
+	font-family: Quicksand;
 }
 
 #services-section .simple-project h2 {
@@ -987,4 +1042,5 @@ footer p {
 	color: #2CDBF8;
 	margin-top: -100px;
 	display: inline-block;
+	font-family: Pier Sans;
 }

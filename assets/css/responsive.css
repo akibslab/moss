@@ -7,6 +7,16 @@
 	#projects-section h2 {
 		left: 5%;
 	}
+
+	#contact-section .form-bg h2 {
+		left: 100px;
+	}
+
+	#newsletter-section .form-bg h2 {
+		left: 100px;
+		top: 380px;
+	}
+
 }
 
 
